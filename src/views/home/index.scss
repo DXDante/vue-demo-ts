@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+
+.test-title {
+    color: v-bind('testTitleStyleMap.color');
+    font-size: v-bind('testTitleFontSize');
+}
