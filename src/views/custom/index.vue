@@ -21,7 +21,6 @@
              *  变量声明没有明确指定数据类型, TS 会自动指定数据类型, 没有赋值则声明为 any 类型
              */
 
-
             /** 函数接口实现 (搜索)
              *  @param { string|Array<string> } resource 源数据
              *  @param { string } target 查找目标
@@ -62,7 +61,6 @@
                 weight: number
                 money?: number
             }
-
             /** 类接口实现
              *  @description 接口可以继承其他接口, interface MultipleInterface extends Human, xxx {}
              *  @description 类可以实现多个接口, class Human implements Human, xxx {}
@@ -90,6 +88,7 @@
                     if (props.money) this.money = props.money;
                 }
             }
+
 
             const personOne = new Human({
                 id: 0,
