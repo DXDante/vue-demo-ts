@@ -107,7 +107,6 @@
                 console.log(searchKeywords('0123456789', '25'));
                 console.log('----- 测试函数接口 ------\n\n');
 
-
                 console.log('\n\n----- 测试类接口 ------');
                 console.log('personOne ', personOne);
                 personOne.running(420);
