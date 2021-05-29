@@ -21,14 +21,6 @@
              *  变量声明没有明确指定数据类型, TS 会自动指定数据类型, 没有赋值则声明为 any 类型
              */
 
-            // const personOne: Human = new Human({
-            //     gender: '男',
-            //     name: 'Dante',
-            //     age: 29,
-            //     height: 183,
-            //     weight: 65
-            // })
-
 
             /** 函数接口实现 (搜索)
              *  @param { string|Array<string> } resource 源数据
