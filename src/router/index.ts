@@ -5,7 +5,7 @@ const routes: Array<RouteRecordRaw> = [
     {
         path: '/',
         redirect: {
-            name: 'custom'
+            name: 'learn-typescript'
         }
     },
     {
@@ -19,9 +19,9 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import("@/views/about/index.vue")
     },
     {
-        path: '/custom',
-        name: 'custom',
-        component: () => import("@/views/custom/index.vue")
+        path: '/learn-typescript',
+        name: 'learn-typescript',
+        component: () => import("@/views/learn-typescript/index.vue")
     },
 ]
 
